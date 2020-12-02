@@ -2,12 +2,12 @@ function myFunction(x) {
     x.classList.toggle("change");
   } 
 
-  const navbar = document.querySelector(".navbar");
-  const menu = document.querySelector(".menu-list");
-  const menuBtn = document.querySelector(".menu-btn");
-  const cancelBtn = document.querySelector(".cancel-btn");
+  const navbar = document.querySelector('.navbar');
+  const menu = document.querySelector('.menu-list');
+  const menuBtn = document.querySelector('.menu-btn');
+  const cancelBtn = document.querySelector('.cancel-btn');
   
-  menuBtn.onclick = ()=>{
+menuBtn.onclick = ()=>{
       menu.classList.add("active");
       menu.classList.add("hide");
   }

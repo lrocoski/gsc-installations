@@ -136,82 +136,110 @@ h3 {
 
 p, li {
   font-size: 1rem;
-  color: #3d5a80;
+  /* color: #3d5a80; */
 }
 
 a {
   color: #fff;
 }
 
-header .icon {
-  color: #fff;
-  font-size: 1.6rem;
-  cursor: pointer;
-}
 
-header .icon.hide {
-  display: none;
-}
 /* header styles */
-/* .content {
+
+
+.content{
   max-width: 1250px;
   margin: auto;
-} */
-
-.navbar {
+  padding: 0 30px;
+}
+.navbar{
   position: fixed;
-  z-index: 5;
   width: 100%;
+  z-index: 2;
   padding: 25px 0;
-  background: #14213D;
   transition: all 0.3s ease;
 }
-
-.navbar.sticky {
-  background-color: #3d5a80;
+.navbar.sticky{
+  background: #2a058f;
   padding: 10px 0;
-
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+}
+.navbar p {
+  color: #fff;
+}
+.head-line.sticky {
+  background: #1b1b1b;
+  padding: 10px 0;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 }
 
-.menu-list {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 45vh;
-  width: 100%;
-  max-width: 300px;
-  background: #3d5a80;
-  display: block;
-  padding: 40px 0;
-  text-align: center;
+.navbar .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.navbar .menu-list{
+  display: inline-flex;
+}
+.menu-list li{
+  list-style: none;
+}
+.menu-list li a{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  text-decoration: none;
   transition: all 0.3s ease;
 }
-
-.menu-list.active{
-  left: 0%;
+.menu-list li a:hover{
+  color: #007bff;
 }
-
-.menu-list li {
-  margin-top: 45px;
+.banner{
+  background: url("../img/secondcat-kazuky-akayashi-unsplash.jpg") no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
-.menu-list li a {
-  font-size: 1.6rem;
-  transition: all 0.3s ease;
-}
-
+/* 
 .banner {
   height: 100vh;
   background: url('../img/secondcat-kazuky-akayashi-unsplash.jpg') no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: fixed; */
+
+.icon {
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+.menu-list .cancel-btn {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.icon.hide {
+  display: none;
 }
 
 .head-line {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #fcfcfc;
+}
+
+.menu-list.active{
+  left: 0%;
 }
 
 /* main section styles */
@@ -326,16 +354,64 @@ footer div p {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
+   @media (max-width: 1230px) {
+    .content{
+      padding: 0 60px;
+    }
+  }
+  @media (max-width: 1100px) {
+    .content{
+      padding: 0 40px;
+    }
+  }
+  @media (max-width: 900px) {
+    .content{
+      padding: 0 30px;
+    }
+  }
+  @media (max-width: 868px) {
+    body.disabled{
+      overflow: hidden;
+    }
+    .icon{
+      display: block;
+    }
+    .icon.hide{
+      display: none;
+    }
+    .navbar .menu-list{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      max-width: 400px;
+      left: -100%;
+      top: 0px;
+      display: block;
+      padding: 40px 0;
+      text-align: center;
+      background: #222;
+      transition: all 0.3s ease;
+    }
+    .navbar.show .menu-list{
+      left: 0%;
+    }
+    .navbar .menu-list li{
+      margin-top: 45px;
+    }
+    .navbar .menu-list li a{
+      font-size: 23px;
+      margin-left: -100%;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .navbar.show .menu-list li a{
+      margin-left: 0px;
+    }
+  }
+  @media (max-width: 380px) {
+    .navbar .logo a{
+      font-size: 27px;
+    }
+  }
 
 /* ==========================================================================
    Print styles.
