@@ -13,7 +13,7 @@ cancelBtn.onClick = ()=>{
   navbar.classList.remove("show");
   menuBtn.classList.remove("hide");
 }
-window.onScroll = ()=>{
+window.onscroll = ()=>{
   this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
 }
 
