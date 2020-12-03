@@ -207,6 +207,14 @@ a {
   background-position: center;
   background-attachment: fixed;
 }
+.secondBanner {
+  background: url("../img/walkin-curology-unsplash.jpg") no-repeat;
+  opacity: 0.7;
+  height: 35vh;
+  background-size: cover;
+  /* background-position: ; */
+  background-attachment: fixed;
+}
 
 
 .icon {
