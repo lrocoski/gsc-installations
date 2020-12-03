@@ -145,8 +145,6 @@ a {
 
 
 /* header styles */
-
-
 .content{
   max-width: 1250px;
   margin: auto;
@@ -209,13 +207,7 @@ a {
   background-position: center;
   background-attachment: fixed;
 }
-/* 
-.banner {
-  height: 100vh;
-  background: url('../img/secondcat-kazuky-akayashi-unsplash.jpg') no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; */
+
 
 .icon {
   color: #fff;
@@ -383,14 +375,15 @@ footer div p {
     }
     .navbar .menu-list{
       position: fixed;
-      top: 0;
-      left: 0;
       height: 100vh;
       width: 100%;
-      background: #222;
+      max-width: 400px;
+      left: -100%;
+      top: 0;
       display: block;
       padding: 40px 0;
       text-align: center;
+      background: #222;
       transition: all 0.3s ease;
     }
     .navbar.show .menu-list{
