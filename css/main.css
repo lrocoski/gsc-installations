@@ -111,7 +111,7 @@ a {
 
 .flex-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 /* typography */
@@ -237,6 +237,13 @@ a {
 .head-line {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  padding: 5px 8px;
+}
+
+.head-line ul {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
