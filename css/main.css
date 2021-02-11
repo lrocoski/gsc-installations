@@ -99,7 +99,7 @@ ul li {
 
 a {
   text-decoration: none;
-  padding: 10px;
+  padding: 5px;
 }
 
 .wrapper {
@@ -139,12 +139,14 @@ p, li {
   /* color: #3d5a80; */
 }
 
-a {
-  color: #fff;
-}
+
 
 
 /* header styles */
+header a {
+  color: #fff;
+}
+
 .logo img {
   width: 25%;
   transition: all cubic-bezier(.55,.09,.68,.53) 0.5s;
@@ -205,7 +207,7 @@ a {
   color: #007bff;
 }
 .banner{
-  background: url("../img/secondcat-kazuky-akayashi-unsplash.jpg") no-repeat;
+  background: url("../img/walkouttub.jpg") no-repeat;
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -256,7 +258,14 @@ a {
 }
 
 /* main section styles */
+span {
+  text-decoration: underline;
+  font-weight: bold;
+}
 
+main a {
+  color: #14213D;
+}
 
 img {
   width: 60%;
