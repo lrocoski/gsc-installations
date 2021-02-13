@@ -374,6 +374,38 @@ img {
 }
 
 
+/* CONTACT PAGE FORM STYLES */
+.myForm {
+  margin: 95%;
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E5E5;
+  padding: 15px 10px;
+  width: 95%;
+  font-family: 'Arimo', sans-serif;
+  border-radius: 2%;
+}
+
+.formFont {
+  font-size: 1.2rem;
+}
+
+.myForm input {
+  line-height: 1.2rem;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 5px;
+  color: #14213D;
+}
+
+button:hover {
+  background-color: #19AFD2;
+}
+
+
 /* footer styles */
 
 footer {
