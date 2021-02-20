@@ -152,6 +152,10 @@ p, li {
 
 
 /* header styles */
+#header {
+   margin: 0 auto 0;
+  padding-top: 0px;
+}
 header a {
   color: #fff;
 }
