@@ -257,7 +257,7 @@ header a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 5px 8px;
+  /**padding: 5px 8px;**/
 }
 
 .head-line ul {
