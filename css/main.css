@@ -206,12 +206,12 @@ header a {
   position: fixed;
   width: 100%;
   z-index: 2;
-  padding: 15px 0;
+  /*padding: 15px 0;*/
   transition: all 0.3s ease;
 }
 .navbar.sticky{
   background: #0603B2;/*#48ACCE*/
-  padding: 5px 0;
+  /*padding: 5px 0;*/
   /* box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1); */
 }
 .navbar p {
@@ -219,7 +219,7 @@ header a {
 }
 .head-line.sticky {
   background: #1b1b1b;
-  padding: 10px 0;
+  /*padding: 10px 0;*/
   box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 }
 
