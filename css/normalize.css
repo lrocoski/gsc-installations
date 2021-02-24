@@ -2,27 +2,27 @@
  
 /* Small screens - MOBILE */
 @media only screen { } /* Define mobile styles - Mobile First */
- img.responsive { max-width: 20%; }
+ 
 @media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
- img.responsive { max-width: 20%; }
+
 /* Medium screens - TABLET */
 @media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
- img.responsive { max-width: 20%; }
+ img.responsive { max-width: 40%; }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
- img.responsive { max-width: 20%; }
+ img.responsive { max-width: 40%; }
 /* Large screens - DESKTOP */
 @media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
- img.responsive { max-width: 20%; }
+ img.responsive { max-width: 40%; }
 @media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
- img.responsive { max-width: 20%; }
+ img.responsive { max-width: 40%; }
 /* XLarge screens */
 @media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
- img.responsive { max-width: 20%; }
+ img.responsive { max-width: 40%; }
 @media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
- img.responsive { max-width: 20%; }
+ img.responsive { max-width: 40%; }
 /* XXLarge screens */
 @media only screen and (min-width: 120.063em) { } /* min-width 1921px, xlarge screens */
- img.responsive { max-width: 20%; }
+ img.responsive { max-width: 40%; }
 /*------------------------------------------*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
