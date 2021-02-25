@@ -254,7 +254,7 @@ header a {
 }
 .banner{
   background: url("../img/walkouttub.jpg") no-repeat;
-  min-height: 100vh;
+  height: 100vh;
   /* mobile viewport bug fix */
   min-height: -webkit-fill-available;
   background-size: cover;
