@@ -1,37 +1,37 @@
---------------------------------------------*/
- 
-/* Small screens - MOBILE */
-@media only screen { } /* Define mobile styles - Mobile First */
-
-@media only screen and (max-width: 40em) {  /* max-width 640px, mobile-only styles, use when QAing mobile issues */
- img.responsive { max-width: 60%; }
+/* fix iOS bug not displaying 100vh correctly */
+/* ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.fullheight {
+		height: 768px;
+	}
 }
-/* Medium screens - TABLET */
-@media only screen and (min-width: 40.063em) {  /* min-width 641px, medium screens */
- img.responsive { max-width: 60%; }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	.fullheight {
+		height: 1024px;
+	}
 }
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {  /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
- img.responsive { max-width: 60%; }
+/* iphone5 */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+	.fullheight {
+		height: 320px;
+	}
 }
-/* Large screens - DESKTOP */
-@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
- img.responsive { max-width: 60%; }
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+	.fullheight {
+		height: 568px;
+	}
 }
-@media only screen and (min-width: 64.063em) and (max-width: 90em) {  /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
- img.responsive { max-width: 60%; }
- }
-/* XLarge screens */
-@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
- img.responsive { max-width: 60%; }
- }
-@media only screen and (min-width: 90.063em) and (max-width: 120em) {  /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
- img.responsive { max-width: 60%; }
- }
-/* XXLarge screens */
-@media only screen and (min-width: 120.063em) {  /* min-width 1921px, xlarge screens */
- img.responsive { max-width: 60%; }
- }
-/*------------------------------------------*/
+/* iPhone 4 */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+	.fullheight {
+		height: 320px;
+	}
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+	.fullheight {
+		height: 480px;
+	}
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
