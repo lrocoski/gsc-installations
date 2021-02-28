@@ -260,9 +260,9 @@ header a {
 }
 .banner{
   background: url("../img/walkouttub.jpg") no-repeat;
-  height: 100vh;
+  height: 99vh;
   background-size: cover;
- /* background-position: center; */
+  background-position: center;
   background-attachment: fixed;
 }
 .secondBanner {
