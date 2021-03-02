@@ -156,6 +156,7 @@ a {
 .flex-container {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
 }
 
 /* typography */
@@ -568,10 +569,15 @@ footer div p {
       padding: 0 30px;
     }
   }
-  @media (max-width: 868px) {
+  @media (min-width: 868px) {
     body.disabled{
       overflow: hidden;
     }
+    .flex-container {
+       display:flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+     }
     .logo img {
       width: 25%;
     }
