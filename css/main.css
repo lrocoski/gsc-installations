@@ -557,6 +557,12 @@ footer div p {
     .content{
       padding: 0 10px;
     }
+    .secondBanner {
+       height: 22vh;
+      }
+    .logo img {
+      width: 15%;
+    }
   }
   /*@media (max-width: 1100px) {
     .content{
