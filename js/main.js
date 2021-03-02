@@ -34,7 +34,3 @@ function showSlides() {
 } 
 
 
-$(window).scroll(function() {
-  var scrolledY = $(window).scrollTop();
-  $('banner').css('background-position', 'left ' + ((scrolledY)) + 'px');
-});
