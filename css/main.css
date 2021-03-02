@@ -560,6 +560,9 @@ footer div p {
     .secondBanner {
        height: 22vh;
       }
+    .logo img {
+      width: 15%;
+    }
   }
   @media (max-width: 1100px) {
     .content{
