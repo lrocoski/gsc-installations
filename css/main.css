@@ -319,12 +319,14 @@ main a {
 }
 
 img {
-  width: 60%;
-  padding: 10px;
+  Width: auto;
+  Max-width: 100%;
+  Height: auto;
   border-radius: 10%;
   transition: all cubic-bezier(.55,.09,.68,.53) 0.5s;
-
+  padding: 5px;
 }
+  
 
 .contact-banner {
   padding: 10px 0;
@@ -586,6 +588,9 @@ footer div p {
     }
     .icon.hide{
       display: none;
+    }
+    .logo img {
+      width: 25%;
     }
     .navbar .menu-list{
       position: fixed;
