@@ -560,9 +560,6 @@ footer div p {
     .secondBanner {
        height: 22vh;
       }
-    .logo img {
-      width: 15%;
-    }
   }
   @media (max-width: 1100px) {
     .content{
@@ -579,7 +576,7 @@ footer div p {
       overflow: hidden;
     }
     .logo img {
-      width: 25%;
+      width: 15%;
     }
     .icon{
       display: block;
