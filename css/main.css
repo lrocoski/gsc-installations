@@ -286,8 +286,8 @@ header a {
   background: url("../img/walkouttub.jpg") no-repeat;
   height: 100vh;
   background-size: cover;
-  /*background-attachment: fixed;*/
-  background-position: center;
+  background-attachment: fixed;
+  background-position: center center;
   webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -297,7 +297,7 @@ header a {
   opacity: 0.7;
   height: 35vh;
   background-size: cover;
-  /* background-position: ; */
+  background-position: center center; 
   background-attachment: fixed;
 }
 
