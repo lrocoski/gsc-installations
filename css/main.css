@@ -218,6 +218,7 @@ p, li {
 #header {
    margin: 0 auto 0;
   padding-top: 0px;
+  position:fixed;
 }
 header a {
   color: #fff;
