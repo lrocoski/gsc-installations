@@ -558,16 +558,16 @@ footer div p {
       padding: 0 10px;
     }
   }
-  @media (max-width: 1100px) {
+  /*@media (max-width: 1100px) {
     .content{
-      padding: 0 40px;
+      padding: 0 10px;
     }
   }
 @media (max-width: 900px) {
     .content{
-      padding: 0 30px;
+      padding: 0 10px;
     }
-  }
+  }*/
   @media (max-width: 868px) {
     body.disabled{
       overflow: hidden;
