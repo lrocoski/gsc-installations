@@ -573,13 +573,13 @@ footer div p {
     .content{
       padding: 0 10px;
     }
+    .logo img {
+      width: 15%;
+    }
   }
  @media (max-width: 868px) {
     body.disabled{
       overflow: hidden;
-    }
-    .logo img {
-      width: 15%;
     }
     .icon{
       display: block;
