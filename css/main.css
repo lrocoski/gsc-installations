@@ -283,12 +283,14 @@ header a {
   color: #007bff;
 }
 .banner{
-  background: url("../img/walkouttub.jpg") no-repeat top center fixed;
+  background: url("../img/walkouttub.jpg") no-repeat;
   height: 100vh;
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
   background-attachment: fixed;
   overflow: hidden; /*added in recently */
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 .secondBanner {
   background: url("../img/walkin-curology-unsplash.jpg") no-repeat;
