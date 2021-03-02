@@ -295,7 +295,7 @@ header a {
 .secondBanner {
   background: url("walkin-curology-unsplashsmall.jpg") no-repeat;
   opacity: 0.7;
-  height: 25vh;
+  height: 35vh;
   background-size: cover;
   background-position: center center; 
   background-attachment: fixed;
