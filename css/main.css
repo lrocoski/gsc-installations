@@ -579,6 +579,11 @@ footer div p {
    Modify as content requires.
    ========================================================================== */
 
+   @media screen and (max-device-width : 1024px) { /*iphone and ipad fix for background img */
+   .home.home-slider-off .site .iheader.ibanner .imagebg {
+        background-attachment: scroll;
+      }
+   }
    @media (max-width: 1440px) {
     .content{
       padding: 0 10px;
