@@ -136,6 +136,24 @@ body {
   margin: 0;
 }
 
+/* click on zoom for pictures */
+.click-zoom input[type=checkbox] {
+  display: none
+}
+
+.click-zoom img {
+  margin: 100px;
+  transition: transform 0.25s ease;
+  cursor: zoom-in
+}
+
+.click-zoom input[type=checkbox]:checked~img {
+  transform: scale(2);
+  cursor: zoom-out
+}
+
+/* END CLICK ON ZOOM FOR PICTURES */
+
 ul li {
   list-style: none;
 }
