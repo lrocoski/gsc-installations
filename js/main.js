@@ -32,3 +32,9 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 } 
+
+
+$(window).scroll(function() {
+  var scrolledY = $(window).scrollTop();
+  $('#container').css('background-position', 'left ' + ((scrolledY)) + 'px');
+});
