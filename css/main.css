@@ -271,12 +271,12 @@ header a {
   display: inline-flex;
 }
 /* to make colored */
-.navbar a:hover {
+.navbar .menu-list li a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.navbar a.active {
+.navbar .menu-list li a.active {
   background-color: #4c59af;
   color: white;
 }
