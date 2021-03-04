@@ -128,6 +128,21 @@ input[type=submit]:hover {
    font-family: 'Source Sans Pro', sans-serif; */
 
 /* GLOBAL Styles */
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Style the active class (and buttons on mouse-over) */
+.active, .btn:hover {
+  background-color: #666;
+  color: white;
+}
+
 body {
   font-size: 62.5%;
   font-family: 'Open Sans', 'Open Sans Condensed';
