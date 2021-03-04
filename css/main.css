@@ -280,6 +280,9 @@ header a {
   background-color: #4c59af;
   color: white;
 }
+li.odd{
+    background-color: #2d00b5;
+}
 /*end*/
 .menu-list li{
   list-style: none;
