@@ -270,6 +270,17 @@ header a {
 .navbar .menu-list{
   display: inline-flex;
 }
+/* to make colored */
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4c59af;
+  color: white;
+}
+/*end*/
 .menu-list li{
   list-style: none;
 }
