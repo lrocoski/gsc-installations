@@ -184,7 +184,9 @@ a {
 }
 
 /* typography */
-
+.centert {
+   text-align:center
+}
 h1 {
   font-size: 1.4rem;
   color: #14213D;
