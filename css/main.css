@@ -131,7 +131,8 @@ input[type=submit]:hover {
 
 body {
   font-size: 62.5%;
-  font-family: 'Open Sans', 'Open Sans Condensed';
+ /* font-family: 'Open Sans', 'Open Sans Condensed';*/
+  font-family: 'Helvetica', 'sans-serif ';
   height: 100%;
   width: 100%;
   margin: 0;
@@ -164,7 +165,8 @@ ul li {
 a {
   text-decoration: none;
   padding: 5px;
-  font-family: 'Source Sans Pro', sans-serif;
+ /* font-family: 'Source Sans Pro', sans-serif;*/
+  font-family: 'Helvetica', sans-serif;
 }
 
 .wrapper {
@@ -191,26 +193,30 @@ h1 {
   font-size: 1.4rem;
   color: #14213D;
   text-align: center;
-  font-family: 'Arimo', sans-serif;
+ /* font-family: 'Arimo', sans-serif; */
+  font-family: 'Helvetica', sans-serif;
 }
 
 h2 {
   font-size: 1.3rem;
   color: #14213D;
   text-align: center;
-  font-family: 'Arimo', sans-serif;
+  /*font-family: 'Arimo', sans-serif;*/
+  font-family: 'Helvetica', sans-serif;
 }
 
 h3 {
   font-size: 1.2rem;
   color: #14213D;
   text-align: center;
-  font-family: 'Arimo', sans-serif;
+  /*font-family: 'Arimo', sans-serif;*/
+  font-family: 'Helvetica', sans-serif;
 }
 
 p, li {
   font-size: 1rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  font-family: 'Helvetica', sans-serif;
   /* color: #3d5a80; */
 }
 
@@ -480,7 +486,8 @@ img {
   background-color: #E5E5E5;
   padding: 15px 10px;
   width: 95%;
-  font-family: 'Arimo', sans-serif;
+  /*font-family: 'Arimo', sans-serif; */
+  font-family: 'Helvetica', sans-serif;
   border-radius: 2%;
 }
 
