@@ -342,6 +342,7 @@ li.odd{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  right: 0;
   /**padding: 5px 8px;**/
 }
 
