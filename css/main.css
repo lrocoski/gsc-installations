@@ -349,7 +349,8 @@ li.odd{
 
 .head-line {
   display: flex;
-  justify-content: space-between;
+ /* justify-content: space-between; */
+  justify-content: space-around;
   align-items: center;
   right: 0;
   /**padding: 5px 8px;**/
