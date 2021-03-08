@@ -674,7 +674,7 @@ footer div p {
       max-width: 400px;
       left: -100%;
       top: 0;
-      /* display: block; */
+      display: block; 
       padding: 40px 0;
       text-align: center;
       background: #222;
