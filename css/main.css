@@ -529,7 +529,7 @@ footer {
 footer div p {
   text-align: center;
   border-top: 2px solid rgb(49, 78, 143);
-  padding: 15px;
+  /*padding: 15px;*/
 
 }
 
