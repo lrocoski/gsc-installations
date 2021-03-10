@@ -140,32 +140,11 @@ body {
   -webkit-overflow-scrolling: touch; /*added in recently */
 }
 
-/* click on zoom for pictures */
-.click-zoom input[type=checkbox] {
-  display: none
-}
-
-.click-zoom img {
-  margin: 100px;
-  transition: transform 0.25s ease;
-  cursor: zoom-in
-}
-
-.click-zoom input[type=checkbox]:checked~img {
-  transform: scale(2);
-  cursor: zoom-out
-}
-
-/* END CLICK ON ZOOM FOR PICTURES */
-
 ul li {
   list-style: none;
 }
 
 a {
-  text-decoration: none;
-  padding: 5px;
- /* font-family: 'Source Sans Pro', sans-serif;*/
   font-family: 'Helvetica', sans-serif;
 }
 
@@ -184,37 +163,32 @@ a {
   flex-direction: row;
 }
 
+@media(min-width: 40em) {
+        .split {
+            flex-direction: row;
+        }
+        .split > * {
+            flex-basis: 100%;
+        }
+        .split > * + * {
+            margin-left: 2em;
+        }
+    }
 /* typography */
 .centert {
    text-align: center;
 }
-h1 {
-  font-size: 1.4rem;
+h1, h2, h3 {
   color: #14213D;
   text-align: center;
- /* font-family: 'Arimo', sans-serif; */
-  font-family: 'Helvetica', sans-serif;
-}
-
-h2 {
-  font-size: 1.3rem;
-  color: #14213D;
-  text-align: center;
-  /*font-family: 'Arimo', sans-serif;*/
-  font-family: 'Helvetica', sans-serif;
-}
-
-h3 {
-  font-size: 1.2rem;
-  color: #14213D;
-  text-align: center;
-  /*font-family: 'Arimo', sans-serif;*/
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 1em;
   font-family: 'Helvetica', sans-serif;
 }
 
 p, li {
   font-size: 1rem;
-  /*font-family: 'Source Sans Pro', sans-serif;*/
   font-family: 'Helvetica', sans-serif;
   /* color: #3d5a80; */
 }
