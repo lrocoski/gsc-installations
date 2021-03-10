@@ -621,7 +621,7 @@ footer div p {
       padding: 0 10px;
     }
   }
-  @media (min-width: 40em) {
+  @media (max-width: 40em) {
     body.disabled{
       overflow: hidden;
     }
