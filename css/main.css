@@ -179,15 +179,14 @@ a {
   flex-direction: row;
   justify-content: space-evenly;
 }
-.flex-container1 {
+.split {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 /* typography */
 .centert {
-   flex-direction: row;
+   text-align: center;
 }
 h1 {
   font-size: 1.4rem;
@@ -693,9 +692,12 @@ footer div p {
     .navbar.show .menu-list li a{
       margin-left: 0px;
     }
-    .centert {
-   flex-direction: column;
-}
+    .split {
+   flex-direction: row;
+   }
+    .split > * {
+        flex-basis: 100%;
+     }
   }
   /* @media (max-width: 380px) {
     .navbar .logo a{
