@@ -609,10 +609,10 @@ footer div p {
     .logo img {
       width: 10%;
     }
-   /*
+   
     img {
-       width: 25%;
-  } */
+       width: 50%;
+  } 
   .flex-container1 {
       flex-direction: row;
     }
