@@ -179,6 +179,11 @@ a {
 .centert {
    text-align: center;
 }
+.centerp {
+   display: flex;
+   justify-content: center;
+   
+}
 h1, h2, h3 {
   color: #14213D;
   text-align: center;
