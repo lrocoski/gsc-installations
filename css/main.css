@@ -609,9 +609,10 @@ footer div p {
     .logo img {
       width: 10%;
     }
+   /*
     img {
        width: 25%;
-  }
+  } */
   .flex-container1 {
       flex-direction: row;
     }
@@ -620,16 +621,6 @@ footer div p {
       padding: 0 10px;
     }
   }
-@media (max-width: 900px) {
-    .content{
-      padding: 0 10px;
-    }
-    .logo img {
-      width: 15%;
-    }
-   img {
-      width:55%;
-   }
   @media (min-width: 40em) {
     body.disabled{
       overflow: hidden;
