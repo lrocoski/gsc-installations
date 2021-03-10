@@ -181,7 +181,7 @@ a {
 }
 .split {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 /* typography */
@@ -693,7 +693,7 @@ footer div p {
       margin-left: 0px;
     }
     .split {
-   flex-direction: row;
+   flex-direction: column;
    }
     .split > * {
         flex-basis: 100%;
