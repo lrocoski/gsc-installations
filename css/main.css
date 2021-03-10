@@ -630,7 +630,7 @@ footer div p {
    img {
       width:55%;
    }
-  @media (max-width: 868px) {
+  @media (min-width: 40em) {
     body.disabled{
       overflow: hidden;
     }
@@ -669,12 +669,6 @@ footer div p {
     .navbar.show .menu-list li a{
       margin-left: 0px;
     }
-    .split {
-   flex-direction: column;
-   }
-    .split > * {
-        flex-basis: 100%;
-     }
   }
   /* @media (max-width: 380px) {
     .navbar .logo a{
