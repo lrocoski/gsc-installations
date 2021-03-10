@@ -187,7 +187,7 @@ a {
 
 /* typography */
 .centert {
-   text-align:center
+   flex-direction: row;
 }
 h1 {
   font-size: 1.4rem;
@@ -693,6 +693,9 @@ footer div p {
     .navbar.show .menu-list li a{
       margin-left: 0px;
     }
+    .centert {
+   flex-direction: column;
+}
   }
   /* @media (max-width: 380px) {
     .navbar .logo a{
