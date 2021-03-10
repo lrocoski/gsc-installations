@@ -384,12 +384,15 @@ main a {
 }
 
 img {
+  max-width: 100%;
+  display: block;
+  /*
   Width: auto;
   Max-width: 100%;
   Height: auto;
   border-radius: 10%;
   transition: all cubic-bezier(.55,.09,.68,.53) 0.5s;
-  padding: 5px;
+  padding: 5px;*/
 }
   
 
