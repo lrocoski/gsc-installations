@@ -225,6 +225,9 @@
             font-family: 'Helvetica', sans-serif;
             /* color: #3d5a80; */
         }
+        p.condence {
+            margin-left: 10%;
+        }
         /* header styles */
         
         #header {
@@ -704,6 +707,9 @@
             h1 {
                 font-size: 200%;
             }
+                p.condence {
+            margin-left: 0%;
+        }
         }
         /* @media (max-width: 380px) {
     .navbar .logo a{
