@@ -165,9 +165,9 @@ a {
 }
 splitn {
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: column;
   justify-content: space-evenly;
+  overflow-wrap: normal;
 }
 
 @media(min-width: 40em) {
