@@ -112,6 +112,10 @@ input[type=submit]:hover {
   background-color: #a4b0fc;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .row > .column {
   padding: 0 8px;
 }
