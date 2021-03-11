@@ -228,6 +228,9 @@
         p.condence {
             margin-left: 10%;
         }
+        p.condencer {
+             margin-right: 10%;   
+        }
         /* header styles */
         
         #header {
@@ -709,6 +712,9 @@
             }
                 p.condence {
             margin-left: 0%;
+        }
+                 p.condencer {
+             margin-right: 0%;   
         }
         }
         /* @media (max-width: 380px) {
