@@ -438,6 +438,11 @@
             /* background-color: #edf2fb;
   border-radius: 1%; */
         }
+        .SlideSize {
+            max-height: 18em !important;
+            width: 100%;
+            object-fit: contain;
+        }
         /* Hide the images by default */
         
         .mySlides {
