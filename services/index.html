@@ -67,7 +67,8 @@
        <h1>GSC Services</h1>
         <div class="split">
           <div class ="centert">      
-            <img src="../img/walkouttub.jpg" alt="tub cut out with door" class="centerp">
+            <img src="../img/walkouttub.jpg" alt="tub cut out with door" class="centerp hover-shadow cursor" onclick="openModal();currentSlide(1)">
+            
           </div>
           <div>
             <p><u>Walk-in tub installations:</u> GSC specializes in Walk in Tub installations and can be in and out ranging form 24-48 hours. At GSC we take pride in our work and take proper steps needed to make sure our customers are completely stratified. Contact us now to request a free catalogue.</p>
@@ -97,6 +98,45 @@
          </div>
         <form action="../products/index.html" class="contact-banner"><input type="submit" value="View Products"> Call 1-800-111-2222</form>         
       </section>
+    <div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 3</div>
+      <img src="../img/walkouttub.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 3</div>
+      <img src="../img/Tubcut-nodoor.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 3</div>
+      <img src="../img/showerchair.png" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="../img/walkouttub.jpg" style="width:100%" onclick="currentSlide(1)" alt="walkout">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../img/Tubcut-nodoor.jpeg" style="width:100%" onclick="currentSlide(2)" alt="nodoor">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../img/showerchair.png" style="width:100%" onclick="currentSlide(3)" alt="chairandall">
+    </div>
+  </div>
+</div>
+
   </main>
   <footer>
     <div class="wrapper">
@@ -125,6 +165,44 @@
   <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="../js/plugins.js"></script>
   <script src="../js/main.js"></script>
+  <script>
+           function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+            </script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
