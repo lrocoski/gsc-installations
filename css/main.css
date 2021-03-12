@@ -138,6 +138,14 @@
 
    font-family: 'Source Sans Pro', sans-serif; */
         /* GLOBAL Styles */
+        i.fab.fa-instagram {
+            margin-left: .3em;
+            margin-right: .3em;
+        }
+        
+        i.fas.fa-phone-square-alt {
+            margin-right: 3em;
+        }
         
         body {
             font-size: 62.5%;
