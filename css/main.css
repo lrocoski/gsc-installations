@@ -730,6 +730,14 @@
                  p.condencer {
              margin-right: 0%;   
         }
+                i.fab.fa-instagram {
+            margin-left: 0em;
+            margin-right: 0em;
+        }
+        
+                i.fas.fa-phone-square-alt {
+            margin-right: 0em;
+        }
         }
         /* @media (max-width: 380px) {
     .navbar .logo a{
