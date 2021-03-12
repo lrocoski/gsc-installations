@@ -726,18 +726,18 @@
             }
                 p.condence {
             margin-left: 0%;
-        }
+            }
                  p.condencer {
              margin-right: 0%;   
-        }
+            }
                 i.fab.fa-instagram {
-            margin-left: 0em;
-            margin-right: 0em;
-        }
+            margin-left: auto;
+            margin-right: auto;
+            }
         
                 i.fas.fa-phone-square-alt {
-            margin-right: 0em;
-        }
+            margin-right: auto;
+            }
         }
         /* @media (max-width: 380px) {
     .navbar .logo a{
