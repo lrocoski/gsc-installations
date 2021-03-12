@@ -257,6 +257,10 @@
             transition: all cubic-bezier(.55, .09, .68, .53) 0.5s;
         }
         
+        .iconsize {
+            font-size: 150%;
+        }
+
         .content {
             max-width: 1250px;
             margin: auto;
