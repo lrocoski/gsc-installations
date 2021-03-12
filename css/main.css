@@ -252,6 +252,7 @@
         }
         
         .logo img {
+            margin-top: .1em;
             width: 25%;
             transition: all cubic-bezier(.55, .09, .68, .53) 0.5s;
         }
