@@ -675,9 +675,6 @@
             .logo img {
                 width: 17.5%;
             }
-            .logo1 img {
-                width: 17.5%;
-            }
             img {
                 width: 50%;
             }
@@ -703,7 +700,7 @@
                 display: none;
             }
             .logo img {
-                width: 25%;
+                width: 60%;
             }
             .navbar .menu-list {
                 position: fixed;
