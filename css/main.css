@@ -405,9 +405,9 @@
         
         .menu-list .cancel-btn {
             position: absolute;
+            right: -.5em;
             width: 30%;
-            right: 30px;
-            top: 20px;
+            top: .5em;
         }
         
         .icon.hide {
@@ -689,12 +689,6 @@
             .secondBanner {
                 height: 22vh;
             }
-            img {
-                width: 50%;
-            }
-            .flex-container1 {
-                flex-direction: row;
-            }
             .pictureSize {
                 max-height: 47em !important;
                 width: 100%;
@@ -705,12 +699,6 @@
             }
             .Contactbtn-desktop {
                 display: initial;
-            }
-        }
-        
-        @media (max-width: 1100px) {
-            .content {
-                padding: 0 10px;
             }
         }
         
@@ -731,14 +719,13 @@
                 position: fixed;
                 height: 100vh;
                 width: 100%;
-                max-width: 400px;
                 left: -100%;
-                top: 0;
                 display: block;
-                padding: 40px 0;
                 text-align: center;
                 background: #222;
                 transition: all 0.3s ease;
+                margin-top: 0;
+                top: 0;
             }
             .navbar.show .menu-list {
                 left: 0%;
