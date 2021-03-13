@@ -696,11 +696,11 @@
                 padding: 0 10px;
             }
         }
-        @media screen and (orientation:landscape) {
+        @media only screen and (orientation: landscape) {
            .logo img {
-                width: 30%;
+                width: 10%;
         }
-        @media (max-width: 40em) {
+        @media screen and (max-width: 40em) {
             body.disabled {
                 overflow: hidden;
             }
