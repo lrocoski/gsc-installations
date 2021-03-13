@@ -696,7 +696,7 @@
                 padding: 0 10px;
             }
         }
-        @media only (orientation: landscape) {
+        @media (orientation: landscape) {
            .logo img {
                 width: 20%;
         }
