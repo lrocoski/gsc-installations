@@ -191,7 +191,7 @@
             flex-direction: column;
         }
         
-        @media(min-width: 40em) {
+        @media(min-width: 40em and (orientation: landscape)) {
             .split {
                 flex-direction: row;
             }
@@ -199,6 +199,15 @@
                 flex-basis: 100%;
             }
             .split>*+* {
+                margin-left: 2em;
+            }
+            .splitp {
+                flex-direction: row;
+            }
+            .splitp>* {
+                flex-basis: 100%;
+            }
+            .splitp>*+* {
                 margin-left: 2em;
             }
         }
@@ -688,7 +697,7 @@
             }
         }
         
-        @media (max-width: 40em) {
+        @media (max-width: 40em and (orientation: landscape)) {
             body.disabled {
                 overflow: hidden;
             }
